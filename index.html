@@ -17,28 +17,30 @@
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
     <link href="coffee by responsiv 2.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <button style="position: fixed; background-color: black; color: white; top: 500px; left:1200px; z-index: 1; width: 50px; height: 50px; border-radius: 30px; " onclick="window.scrollBy(0,-5000)">/\</button>
     <button style="position: fixed; background-color: black; color: white; top: 500px; left:1270px; z-index: 1; width: 50px; height: 50px; border-radius: 30px; " onclick="window.scrollBy(0,5000)">\/</button>
-   
+
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="coffee by responsiv 2.html" style="background-color: rgb(87, 95, 103); border-radius: 50%;">
-                    &nbsp;<span style="color: rgb(159, 232, 248);">G -
+                <a class="navbar-brand my-2 ms-4" href="coffee by responsiv 2.html" style="background-color: rgb(103, 99, 87); border-radius: 50%;">
+                    <img src="Coffee-logo-illustration-on-transparent-background-PNG.png" alt="" width="60px" height="50px">
+                    <!-- &nbsp;<span style="color: rgb(248, 203, 4);">G -
                      <span style="color: dodgerblue;">C
                     <span style="color: rgb(239, 156, 93);">O</span>
                     <span style="color: rgb(53, 250, 141);">F</span>
                     <span style="color: rgb(230, 252, 198);">F</span>
                     <span style="color: rgb(255, 102, 0);">E</span>
-                    <span style="color: rgb(255, 0, 72);">E</span></span></span>&nbsp;&nbsp;&nbsp;&nbsp
+                    <span style="color: rgb(255, 0, 72);">E</span></span></span>&nbsp;&nbsp;&nbsp;&nbsp -->
                     </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    aria-label="Toggle navigation">Menu
+                    <!-- <span class="navbar-toggler-icon text-light"></span> -->
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ">
@@ -49,7 +51,7 @@
                         <a class="nav-link" href="#">
                             <form class="d-flex">
                                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-outline-success" type="submit">Search</button>
+                                <button class="btn btn-light" type="submit">Search</button>
                             </form>
                         </a>
                         <form class="d-flex">
@@ -75,7 +77,7 @@
                 <div style="color: rgb(56, 121, 82);" class="carousel-caption d-none d-md-block">
                     <h5>First slide label</h5>
                     <p>Some representative placeholder content for the first slide.</p>
-                    <button type="button" class="btn btn-info">our coffees</button>
+                    <button type="button" class="btn" id="ourcoffe" onclick="document.getElementById('ourcoffe').style.backgroundColor='red'">our coffees</button>
                 </div>
             </div>
             <div class="carousel-item ">
@@ -83,7 +85,7 @@
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Second slide label</h5>
                     <p>Some representative placeholder content for the second slide.</p>
-                    <button type="button" class="btn btn-info">our coffees</button>
+                    <button type="button" class="btn " id="ourcoffe" onmouseover="document.getElementById('ourcoffe').style.backgroundColor='red'">our coffees</button>
                 </div>
             </div>
             <div class="carousel-item ">
@@ -148,7 +150,7 @@
                 bean can tell. Come on in, take a sip, and explore<br>
                 with us!
             </p>
-            <button type="button" class="btn btn-info">Read More</button><br><br>
+            <button type="button" class="btn btn-light">Read More</button><br><br>
         </div>
         <div class="d41">
             <img src="1.jpg" width="90%" height="400px">
@@ -176,7 +178,7 @@
                             <div class="card-body">
                                 <h5> Ethically Sourced Arabica Beans</h5><br>
 
-                                <p class="card-text">All of our arabica beans come from farms 
+                                <p class="card-text">All of our arabica beans come from farms
                                     we’ve been to.We meet the team, inspect the quality of their
                                     coffee trees, and tour the facilities.
                                     We ensure our coffee growers are paid fair wages.</p>
@@ -205,7 +207,7 @@
                                     height="100px"></div>
                             <div class="card-body ">
                                 <h5>Quality In Each Cup</h5><br>
-                                <p class="card-text">All of our arabica beans come from farms 
+                                <p class="card-text">All of our arabica beans come from farms
                                     we’ve been to.We meet the team, inspect the quality of their
                                     coffee trees, and tour the facilities.
                                     We ensure our coffee growers are paid fair wages.</p>
@@ -217,7 +219,7 @@
         </div>
 
     </div><br>
-    <div class d5>
+    <div class="d5">
         <center>
             <p>
             <h3>Our Menu</h3>
@@ -290,7 +292,7 @@
                     <th scope="col" class="tfirst">
                         <h2>coffee</h2>
                     </th>
-                    <th scope="col"></th>
+                    <th scope="col">tall</th>
                     <th scope="col">GRANDE</th>
                     <th scope="col">VENTI</th>
                 </tr>
@@ -298,19 +300,19 @@
             <tbody class="tabledata">
                 <tr>
                     <th scope="row" class="tfirst">1.Caffè Americano</th>
-                    <td></td>
+                    <td>0</td>
                     <td>5</td>
                     <td>6</td>
                 </tr>
                 <tr>
                     <th scope="row" class="tfirst">2.Caffe Latte</th>
-                    <td></td>
+                    <td>0</td>
                     <td>5</td>
                     <td>6</td>
                 </tr>
                 <tr>
                     <th scope="row" class="tfirst">3.Cappuccino</th>
-                    <td></td>
+                    <td>0</td>
                     <td>5</td>
                     <td>6</td>
                 </tr>
@@ -320,7 +322,7 @@
         </table>
     </div>
     <div class="container ">
-        <table class="table">
+        <table class="table table11">
             <thead>
                 <tr class="tablehead">
                     <th scope="col" class="tfirst">
@@ -457,7 +459,7 @@
 
         </div>
         <center><button class="ourcofee"
-                style="width: 220px; height: 70px;border-radius: 20px; background-color: darkgreen; color: bisque; margin-top: 50px; font-size: 20px; font-weight: bolder; margin-bottom: 50px;">explore
+                style="width: 220px; height: 70px;border-radius: 20px; background-color: rgb(155, 99, 3); color: bisque; margin-top: 50px; font-size: 20px; font-weight: bolder; margin-bottom: 50px;">explore
                 our coffees</button></center><br>
 
     </div><br>
@@ -491,12 +493,21 @@
             <br>
           55 ADELAIDE ST E,<BR>TORANTO,ON M5C 1K6<BR>CANADA<BR>
             <h6>info@coffee-skin.com</h6>
+<div>
+
+    <i class="fa fa-whatsapp fa-2x text-light bg-success rounded-circle"></i>
+    <i class="fa fa-twitter fa-2x text-light bg-primary rounded-circle"></i>
+    <i class="fa fa-facebook fa-2x text-light bg-info rounded-circle px-2 py-1"></i>
+    <i class="fa fa-instagram fa-2x text-light bg-danger rounded-circle"></i>
+
+</div>
+
 
             </p>
         </span>
 
     </div>
-
+    <div style=" width:100%; text-align: center; padding-bottom: 10px; text-transform: capitalize;">** Copyright by Sachin Lawaniya 3 march 2024 | privacy | include files -</div>
 
 </body>
 
