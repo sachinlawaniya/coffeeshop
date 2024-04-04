@@ -6,29 +6,39 @@
 .container-fluid {
     width: 100%;
     height: fit-content;
-    background-color: aqua;
+    background-color: rgb(12, 12, 12);
+    box-shadow: 0px 2px 20px white;
+    color: aliceblue;
 
 }
 
 .navbar-brand {
-    font-size: 28px;
+    font-size: 22px;
     font-weight: bolder;
-    background-color: aqua;
+    background-color: rgb(12, 12, 12);
+
+}
+.navbar-brand span{
+    margin-left:2px;
 }
 
 .navbar-nav {
-    margin-left: 10%;
-    background-color: aqua;
-    color: blueviolet;
+    margin-left: 30%;
+    background-color: rgb(12, 12, 12);
+    color: rgb(251, 250, 251);
 
 
 }
 
 .nav-link {
-    padding-top: 10px;
+    padding-top: 12px;
     margin-left: 30px;
     color: antiquewhite;
-    font-size: 23px;
+    font-size: 18px;
+
+}
+.nav-link:hover{
+    color: rgb(246, 141, 4);
 
 }
 
@@ -38,11 +48,12 @@
 
 .btn {
     width: 150px;
-    height: 40px;
-    font-size: 20px;
+    height: 35px;
+    font-size: 15px;
     border-radius: 20px;
-    background-color: blueviolet;
-    font-weight: bolder;
+    background-color: rgb(246, 141, 4);
+    color: aliceblue;
+    font-weight: bold;
 }
 
 .col {
@@ -153,7 +164,7 @@
     height: fit-content;
     margin-left: 0px;
     padding-left: 0px;
-   
+
 
 }
 
@@ -217,7 +228,8 @@
     font-size: 20px;
     text-decoration: none;
     margin-top: 10px;
-    color: chartreuse;
+    color: rgb(15, 16, 15);
+    background-color: rgb(213, 154, 4);
 }
 .d6{
     width: 100%;
@@ -231,10 +243,10 @@
     text-align: center;
 }
 .ourcofee:hover{
-    background-color: rgb(11, 184, 51);
-    box-shadow: 10px 10px 1px rgb(251, 128, 128);
+    background-color: rgb(236, 163, 5);
+    box-shadow: 10px 10px 1px rgb(17, 16, 16);
     transition-duration: 2s;
-    
+
 }
 
 
@@ -244,57 +256,60 @@
         margin: 0PX;
         padding: 0PX;
         overflow: scroll;
-        
+
     }
     body{
         width: 100%;
         height: fit-content;
         border: 2px solid black;
+        /* overflow-x: hidden; */
+        /* color: white; */
     }
 
 
     .container-fluid {
         width: 100%;
         height: fit-content;
-        background-color: aqua;
-    
+        background-color: rgb(16, 16, 16);
+
     }
-    
+
     .navbar-brand {
         font-size: 28px;
         font-weight: bolder;
-        background-color: aqua;
+        background-color: rgb(11, 11, 11);
+        color: aliceblue;
     }
-    
+
     .navbar-nav {
         margin-left:5%;
-        background-color: rgb(48, 51, 51);
-        color: blueviolet;
-    
-    
+        background-color: rgb(11, 11, 11);
+        color: rgb(247, 246, 248);
+
+
     }
-    
+
     .nav-link {
         padding-top: 10px;
         margin-left: 30px;
         color: antiquewhite;
-        font-size: 23px;
-    
+        font-size: 13px;
+
     }
-    
+
     .imgheight {
         height: 400px;
     }
-    
+
     .btn {
         width: 150px;
         height: 40px;
-        font-size: 20px;
+        font-size: 14px;
         border-radius: 20px;
-        background-color: blueviolet;
+        background-color: rgb(16, 16, 16);
         font-weight: bolder;
     }
-    
+
     .col {
         text-align: center;
         padding: 0px;
@@ -340,7 +355,7 @@
         align-items: center;
         background-color: rgb(204, 251, 109);
         width: 100%;
-        padding-left: 63px;
+        /* padding-left: 63px; */
 
     }
 
@@ -356,6 +371,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-image: url(coffee\ beans\ cup\ table\ img.jpg);
+        text-align: center;
     }
 
     .table {
@@ -367,27 +383,43 @@
     }
 
     .table2 {
-        width: fit-content;
+        width: 100%;
         height: fit-content;
         background-image: url(coffe\ cup\ table.jpg);
-        margin-left: -100px;
+        margin-left: 0px;
+
+        text-align: center;
+
+
 
 
     }
-    .table2 table{
-        width: fit-content;
+    .table2 .table{
+        width: 100%;
+margin-left: -50px;
+        text-align: center;
+        /* justify-content: center; */
     }
 
     .tfirst {
         text-align: left;
-        color: rgb(149, 255, 0);
+        color: rgb(238, 167, 3);
+
+    }
+    .table11{
+        width: 50%;
+        margin-left: 50px;
+                text-align: center;
 
     }
 
     .table3 {
-        width: fit-content;
+        width: 100%;
         height: fit-content;
-        padding-left: 20px;
+        text-align: center;
+        margin-left: 50px;
+
+        /* padding-left: 20px;   */
         background-image: url(jinjar\ table.jpg);
         background-size: 40%;
         background-repeat: no-repeat;
@@ -398,6 +430,10 @@
         width:fit-content;
         height: fit-content;
         overflow: scroll;
+        font-size: 12px;
+    }
+    .table th{
+        font-size: 12px;
     }
 
     .singantureimg {
@@ -406,7 +442,7 @@
         width: 100%;
         height: 600px;
         margin-left: 0px;
-        padding-left: 0px;
+        padding-left: 30px;
 
 
     }
@@ -425,13 +461,21 @@
     .d5 {
         width: 100%;
         height:fit-content;
+        border: none;
+        /* overflow: hidden; */
 
+    }
+    .d5 center hr{
+        display: none;
+        width: 0px;
+        height: 0px;
     }
 
     .d51 {
         text-align: center;
         width: 100%;
         height: 100px;
+        border: none;
 
     }
 
@@ -443,15 +487,18 @@
         width: 100%;
         height: fit-content;
         display: block;
+        border: none;
 
     }
 
     .d521 {
-        width: 95%;
+        width: 100%;
         height: fit-content;
         margin-top: 50px;
 
         margin-left: 0px;
+
+        border: none;
 
     }
     .d6{
